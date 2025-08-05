@@ -1,38 +1,65 @@
-baseURL = 'https://magierg.github.io/'
+baseURL = 'https://www.invertassert.dev/'
 languageCode = 'en-us'
-title = 'Magierg Blog'
+title = 'InvertAssert'
 theme = 'PaperMod'
 
 [params]
-  description = "Personal blog and resume"
-  author = "Magierg"
-  showToc = true
+  description = "QA meets AI — intelligently skeptical"
+  author = "Maciej"
+  ShowToc = true
   TocOpen = false
-  hidemeta = false
-  disableShare = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowCodeCopyButtons = true
   comments = false
-  
-[params.homeInfoParams]
-  Title = "Welcome to Magierg's Blog"
-  Content = "Personal blog covering technology, programming, and thoughts on various topics."
+  hidemeta = false
+
+  [params.homeInfoParams]
+    Title = "Invert the Obvious. Assert the Unexpected."
+    Content = """
+    Welcome to **InvertAssert** — where quality isn’t assumed, it’s challenged.
+
+    Exploring the frontiers of **quality engineering**, **test automation**, and the evolving role of **AI in QA**.
+    
+    > Always question. Always check. Never assume.
+    """
 
 [[params.socialIcons]]
   name = "github"
   url = "https://github.com/magierg"
 
+# Optional: Add LinkedIn or X/Twitter if you use them
+# [[params.socialIcons]]
+#   name = "linkedin"
+#   url = "https://linkedin.com/in/your-profile"
+
+# [[params.socialIcons]]
+#   name = "x"
+#   url = "https://x.com/your-handle"
+
 [menu]
+
   [[menu.main]]
     identifier = "home"
     name = "Home"
     url = "/"
     weight = 10
+
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
     url = "/posts/"
     weight = 20
+
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
     weight = 30
+
+  # Optional: Add projects if you plan to showcase code/tools
+  # [[menu.main]]
+  #   identifier = "projects"
+  #   name = "Projects"
+  #   url = "/projects/"
+  #   weight = 25
