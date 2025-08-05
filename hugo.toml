@@ -1,0 +1,38 @@
+baseURL = 'https://magierg.github.io/'
+languageCode = 'en-us'
+title = 'Magierg Blog'
+theme = 'PaperMod'
+
+[params]
+  description = "Personal blog and resume"
+  author = "Magierg"
+  showToc = true
+  TocOpen = false
+  hidemeta = false
+  disableShare = false
+  comments = false
+  
+[params.homeInfoParams]
+  Title = "Welcome to Magierg's Blog"
+  Content = "Personal blog covering technology, programming, and thoughts on various topics."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/magierg"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 30
