@@ -5,13 +5,21 @@ showMore: true
 hideTitle: false
 ---
 
-Welcome to **InvertAssert** — where quality isn’t assumed, it’s challenged.
+# Welcome to **InvertAssert**
 
-Exploring the frontiers of **quality engineering**, **test automation**, and the evolving role of **AI in QA**.
+Where quality isn’t assumed — it’s challenged.
 
-Here, every assertion is an invitation to question.  
-Every pass? A challenge to prove it wasn’t a false one.
+---
+
+## What You'll Find Here
+
+- **Quality Engineering**: Principles, frameworks, and real-world strategies
+- **Test Automation**: Playwright, k6, Python, Typescript, and more
+- **AI in QA**: Practical, responsible use of AI for smarter testing
+- **Philosophy**: Why inverting assumptions leads to better software
 
 ---
 
 > **Always question. Always check. Never assume.**
+
+Stay curious. Break things (on purpose). Assert the unexpected.
